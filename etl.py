@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # Chemin vers le Data Lake
 data_lake_path = "./DataLake"
 # Connexion PostgreSQL
-engine = create_engine('postgresql+psycopg2://postgres:postgresql@localhost/olist_dwh')
+engine = create_engine('postgresql+psycopg2://xxxx:xxxx@localhost/olist_dwh')
 
 # Fonction pour charger les données dans PostgreSQL
 def load_data_to_sql(table_name, dataframe):
